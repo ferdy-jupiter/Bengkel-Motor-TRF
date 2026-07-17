@@ -202,6 +202,7 @@
 
     <!-- Toast Container -->
     <div id="toast-container" aria-live="polite"></div>
+    @include('components.chatbot')
 
     <!-- Navbar -->
     <nav class="bg-slate-900 text-white shadow-lg sticky top-0 z-40">

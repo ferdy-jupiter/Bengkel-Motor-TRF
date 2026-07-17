@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <script>
         tailwind.config = {
             theme: {
@@ -422,8 +423,8 @@
                 <div class="w-10 h-10 rounded-lg bg-race-900/40 flex items-center justify-center mb-4">
                     <svg class="w-5 h-5 text-race-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
                 </div>
-                <p class="font-display font-medium text-lg mb-2">Ganti Oli</p>
-                <p class="text-white/50 text-sm">Cepat, presisi, oli standar balap.</p>
+                <p class="font-display font-medium text-lg mb-2">Bubut Cnc machine</p>
+                <p class="text-white/50 text-sm">akurat, presisi, canggih.</p>
                 <div class="mt-4 text-race-400 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
                     Booking <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </div>
@@ -757,5 +758,6 @@
             });
         });
     </script>
+    @include('components.chatbot')
 </body>
 </html>
